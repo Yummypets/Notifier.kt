@@ -1,4 +1,9 @@
 # Notifier
+ [![Language: Kotlin](https://img.shields.io/badge/language-Kotlin-7963FE.svg?style=flat)](https://kotlinlang.org)
+ ![Platform: Android 8+](https://img.shields.io/badge/platform-Android-68b846.svg?style=flat)
+ [![codebeat badge](https://codebeat.co/badges/1b9d3a18-c78e-4ca9-855c-92e02b457b48)](https://codebeat.co/projects/github-com-yummypets-notifier-master)
+ [![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/Yummypets/Notifier.kt/blob/master/LICENSE)
+
 Publish/Subscribe mechanism in Kotlin. (Event-Bus like)
 
 ```kotlin
@@ -13,9 +18,9 @@ publishEvent(UserDidLoginEvent())
 
 ## About
 
-Notifier
 - [x] Simple & type-safe api (generics FTW)
 - [x] Lightweight: 1 file ~ 50 lines of pure kotlin
+- [x] Does NOT rely on evil Annotations
 - [x] Familiar to the well-known [EventBus](https://github.com/greenrobot/EventBus) Library
 
 ## Installation
