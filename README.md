@@ -25,8 +25,9 @@ class MySubscriberFragment: Fragment(), NotifierSubscriber {
         super.onStart()
 
         // Subscribe
-        subscribeFor<NewPostEvent>{
+        subscribeFor<NewPostEvent>{ event ->
             // do someting cool
+            print(event.newPost)
         }
     }
 
