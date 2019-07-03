@@ -75,3 +75,6 @@ class MyPublisherFragment: Fragment(), NotifierPublisher {
     }
 }
 ```
+
+## Contributors
+[S4cha](https://github.com/s4cha), [PAFagniez](https://github.com/PAFagniez)
