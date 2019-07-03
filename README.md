@@ -15,7 +15,7 @@ data class NewPostEvent(val newPost: Post)
 First you need to add the `NotifierSubscriber` interface.
 This will force you to implement a `notifierToken` used for future cancellation & give you the ability to call `subscribeFor<Event>`.
 
-```koltin
+```kotlin
 class MySubscriberFragment: Fragment(), NotifierSubscriber {
 
     // Store a cancellation token
