@@ -1,4 +1,4 @@
-# Notifier
+# Notifier.kt
  [![Language: Kotlin](https://img.shields.io/badge/language-Kotlin-7963FE.svg?style=flat)](https://kotlinlang.org)
  ![Platform: Android 8+](https://img.shields.io/badge/platform-Android-68b846.svg?style=flat)
  [![codebeat badge](https://codebeat.co/badges/1b9d3a18-c78e-4ca9-855c-92e02b457b48)](https://codebeat.co/projects/github-com-yummypets-notifier-master)
